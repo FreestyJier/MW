@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maxim-scale=1.0, user-scalable=0"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/lightgallery.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--!------------ Шапка --------------->
+
+      <div id="header" class="header">
+        <header class="container">
+          <div class="header__body">
+            <a href="index.html" class="header__logo">
+              <img src="img/MWlogo.png" alt="" />
+            </a>
+            <div class="header__burger">
+              <span> </span>
+            </div>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li>
+                  <a href="index.html" class="header__link">Главная</a>
+                </li>
+                <li>
+                  <a href="inform.html" class="header__link">О компании</a>
+                </li>
+                <li>
+                  <a href="service.html" class="header__link">Услуги</a>
+                </li>
+                <li>
+                  <a href="ourworks.html" class="header__link">Наши работы</a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="header__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+      <!--!---------- Мейн ----------------->
+      <div class="content">
+        <!--!---------- Главная ----------------->
+        <div class="main">
+          <div class="container">
+            <div class="main__row">
+              <div class="main__body">
+                <div class="main__title _anim-items _anim-no-hide">
+                  Производство и монтаж металлоконструкций
+                </div>
+                <ul class="main__list _anim-items">
+                  <li>Более 20 лет стажа</li>
+                  <li>Индивидуальный подход к заказчику</li>
+                  <li>Собственная производственная площадка</li>
+                  <li>Собственное проектное бюро</li>
+                </ul>
+                <div class="main__btn">
+                  <a href="#popup" class="button popup-link">
+                    <span class="button__line button__line--top"></span>
+                    <span class="button__line button__line--right"></span>
+                    <span class="button__line button__line--bottom"></span>
+                    <span class="button__line button__line--left"></span>
+                    Сделать заказ
+                  </a>
+                </div>
+              </div>
+              <div class="main__image">
+                <img class="_anim-items" src="/img/mconstract.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--!---------- 3 плюса ----------------->
+        <div class="vertical">
+          <div class="container">
+            <div class="vertical__body">
+              <div class="vertical__row">
+                <div class="vertical__column">
+                  <div class="vertical__item _anim-items">
+                    <div class="vertical__subtitle"><span>20</span> лет</div>
+                    <div class="vertical__label">успешной работы</div>
+                  </div>
+                </div>
+                <div class="vertical__column">
+                  <div class="vertical__item _anim-items">
+                    <div class="vertical__subtitle">
+                      <span>200</span> объктов
+                    </div>
+                    <div class="vertical__label">
+                      более 200 выполненных объектов
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical__column">
+                  <div class="vertical__item _anim-items">
+                    <div class="vertical__subtitle">
+                      <span>2 500 000</span> м²
+                    </div>
+                    <div class="vertical__label">
+                      поставленно более 2 500 000 м² зданий различного
+                      назначения
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--!---------- Галерея ----------------->
+        <div class="galary">
+          <div class="container">
+            <div class="galary__row">
+              <!--*---------- Добавление подписей картинок ----------------->
+              <div id="caption2" style="display: none">
+                <h4>Титул</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                  autem fugiat asperiores natus dignissimos, cupiditate odit
+                  temporibus illo laboriosam accusamus totam suscipit aperiam
+                  magnam molestias tempore delectus. Sit ullam ratione ipsam
+                </p>
+              </div>
+              <div id="lightgallery" class="galary__box">
+                <!--*---------- Добавление картинок в галерею ----------------->
+                <a
+                  href="img/gallery_photo/P1030681.JPG"
+                  data-sub-html="#caption2"
+                  class="gallery-tizer-wrap _anim-items"
+                >
+                  <img
+                    src="img/gallery_photo/P1030681.JPG"
+                    style="display: none"
+                  />
+                  <div class="tizer-triangle">
+                    <i class="far fa-image"></i>
+                  </div>
+                  <div class="table">
+                    <div class="tr">
+                      <div class="td">
+                        <span>
+                          <i class="far fa-play-circle"></i><br />
+                          Галерея
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="img/gallery_photo/P1030681.JPG"
+                  data-sub-html="#caption2"
+                  class="gallery-tizer-wrap hiden"
+                >
+                  <img
+                    src="img/gallery_photo/P1030681.JPG"
+                    style="display: none"
+                  />
+                  <div class="tizer-triangle">
+                    <i class="far fa-image"></i>
+                  </div>
+                  <div class="table">
+                    <div class="tr">
+                      <div class="td">
+                        <span>
+                          <i class="far fa-play-circle"></i><br />
+                          Галерея
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="galary__body">
+                <div class="galary__title _anim-items">ООО "Металлверк"</div>
+                <div class="galary__text _anim-items">
+                  <p>
+                    предлагает весь спектр услуг по строительству и
+                    реконструкции зданий, сооружений и промышленных объектов
+                    начиная со стадии проектирования и заканчивая пуском
+                    технологического оборудования.
+                  </p>
+                </div>
+                <ul class="galary__list _anim-items">
+                  <li>Более 20 лет стажа</li>
+                  <li>Индивидуальный подход к заказчику</li>
+                  <li>Собственная производственная площадка</li>
+                  <li>Собственное проектное бюро</li>
+                </ul>
+                <div class="galary__btns">
+                  <div class="galary__item">
+                    <a href="#" class="btn1">О компании</a>
+                    <div class="galary__item">
+                      <div id="lightgallery1">
+                        <!--*---------- Добавление сертификатов в галерею ----------------->
+                        <a href="img/certificate/2.jpg" class="btn2">
+                          <img
+                            src="img/certificate/2.jpg"
+                            style="display: none"
+                          />
+                          <i class="far fa-file-alt"></i> Наши сертификаты
+                        </a>
+                        <a href="img/certificate/1.jpg" class="btn2 hiden">
+                          <img
+                            src="img/certificate/1.jpg"
+                            style="display: none"
+                          />
+                          <i class="far fa-file-alt"></i> Наши сертификаты
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--!---------- Информация ----------------->
+        <div class="information">
+          <div class="container">
+            <div class="infblock _anim-items">
+              <div class="infblock__img">
+                <img src="img/gallery_photo/P1030681.JPG" alt="" />
+              </div>
+              <div class="infblock__text">
+                <h2>Производство металлоконструкций</h2>
+                <p>
+                  Производство металлоконструкций любого типа – одна из основных
+                  сфер деятельности нашего предприятия. Благодаря использованию
+                  собственного оборудования и спецтехники, а также опыту и
+                  высокому профессиональному уровню специалистов.
+                </p>
+                <p>
+                  ООО "Металлверк" способен обеспечивать быстрое и качественное
+                  выполнение работ. Мы успешно производим металлоконструкции для
+                  промышленных зданий, разводных сооружений, гражданских
+                  объектов и др. Кроме того, мы выполняем профессиональный
+                  монтаж металлических конструкций, а также предлагаем своим
+                  клиентам другие дополнительные услуги.
+                </p>
+              </div>
+            </div>
+            <div class="infblock _anim-items">
+              <div class="infblock__text">
+                <h2>Монтаж металлоконструкций</h2>
+                <p>
+                  Надежность конструкций. Наш продукт в полной мере
+                  соответствует требованиям ГОСТ 23118-12 и СНИП III-В.5-62 и
+                  даже превосходит нормативы по некоторым показателям. Проводя
+                  работы по монтажу металлических конструкций, мы придерживаемся
+                  всех установленных в этой сфере правил.
+                </p>
+                <p>
+                  Профессионализм сотрудников. Все наши специалисты,
+                  осуществляющие монтаж металлоконструкций, имеют как минимум
+                  третий разряд и 5-летний опыт работы.Мы гарантируем высокое
+                  качество и длительный (не менее 50 лет при соответствии
+                  правилам эксплуатации) срок службы созданных нами конструкций.
+                </p>
+              </div>
+              <div class="infblock__img">
+                <img src="img/gallery_photo/P1030681.JPG" width="500" alt="" />
+              </div>
+            </div>
+            <div class="infblock _anim-items">
+              <div class="infblock__img">
+                <img src="img/gallery_photo/P1030681.JPG" width="500" alt="" />
+              </div>
+              <div class="infblock__text">
+                <h2>Проектирование металлоконструкций</h2>
+                <p>
+                  Наличие проектно-конструкторского бюро. У нас есть собственное
+                  проектное подразделение. Это позволяет гарантировать высокую
+                  точность любых расчетов, а также решать все задачи при помощи
+                  комплексного подхода. Мы можем проектировать и создавать
+                  различные нестандартные конструкции, необходимые для монтажа,
+                  в рекордно быстрые сроки.
+                </p>
+                <p>
+                  Мы работаем с современной компьютерной техникой и
+                  лицензированными программами для расчета металлоконструкций,
+                  что увеличивает скорость и эффективность производственного
+                  процесса.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--!---------- Футер ----------------->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__body">
+              <div class="footer__one">
+                <div class="footer__item">
+                  <div class="footel__logo">
+                    <img src="img/MWlogo.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="footer__two">
+                <div class="footer__item">
+                  <div class="footer__list">
+                    <ul>
+                      <li>
+                        <a href="index.html" class="footer__link">Главная</a>
+                      </li>
+                      <li>
+                        <a href="inform.html" class="footer__link"
+                          >О компании</a
+                        >
+                      </li>
+                      <li>
+                        <a href="service.html" class="footer__link">Услуги</a>
+                      </li>
+                      <li>
+                        <a href="ourworks.html" class="footer__link"
+                          >Наши работы</a
+                        >
+                      </li>
+                      <li>
+                        <a href="contacts.html" class="footer__link"
+                          >Контакты</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__three">
+                <div class="footer__item">
+                  <div class="footer__contacts">
+                    <div class="footer__mail">
+                      <i class="far fa-envelope"></i> metallwerk@bk.ru
+                    </div>
+                    <div class="footer__phone">
+                      <i class="fas fa-mobile-alt"></i> 8 (800) 555 35 35
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__copiright">
+              <p>© 1999-2020 ООО «Металлверк»</p>
+              <p>Все права защищены</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close close-popup">X</a>
+          <div class="popup__title">Введите информацию</div>
+          <div class="popup__text">
+            <div class="box1">
+              <form
+                id="ajax-contact-form"
+                enctype="multipart/form-data"
+                method="post"
+              >
+                <div class="form-group">
+                  <label for="nameFF">Имя:</label>
+                  <input id="nameFF" name="nameFF" type="text" required />
+                </div>
+                <div class="form-group">
+                  <label for="contactFF">E-mail:</label>
+                  <input
+                    id="contactFF"
+                    name="contactFF"
+                    type="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="telFF">Телефон:</label>
+                  <input id="telFF" name="telFF" type="tel" required />
+                </div>
+                <div class="form-group">
+                  <label for="projectFF">Сообщение</label>
+                  <textarea
+                    id="projectFF"
+                    name="projectFF"
+                    cols="40"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="control-file">
+                  <label for="fileFF">Прикрепить файл:</label>
+                  <input id="fileFF" name="fileFF" type="file" />
+                </div>
+                <button class="btn" type="submit" id="submitFF">
+                  Отправить сообщение
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Библиотеки и плагины -->
+    <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+    <script src="libs/pagescroll/jquery.malihu.PageScroll2id.min.js"></script>
+
+    <!--Кастомные скрипты и подключения плагинов -->
+    <script src="js/main.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/anim.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#lightgallery").lightGallery();
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#lightgallery1").lightGallery();
+      });
+    </script>
+  </body>
+</html>
